@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    width: 650px;
+    padding: 20px 0px 0px 0px;
+    margin-top: 200px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.container__small{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-link{
+    margin-left: 590px;  
+    font-size: 18px;
+}
+.fa-link:hover{
+    color: blue;
+}
+.container__heading{
+    margin: 50px 0px;
+}
+
+.container h1{
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: start;
+    margin: 0 auto;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.inp{
+    margin: 0px 10px 0px 10px;
+}
+.inp #min{
+    text-align: left;
+    font-size: 16px;
+}
+
+.inp #inp{
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #5a5a5a;
+    
+}
+.inp #inp:focus{
+    border-bottom: 3px solid blue;
+}
+
+
+.inp #max{
+    text-align: left;
+    margin-bottom: -3px;
+    font-size: 16px;
+}
+
+.inp #inp2{
+    width: 200px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #5a5a5a;
+}
+
+.inp #inp2:focus{
+    border-bottom: 3px solid blue;
+}
+
+.container button{
+    font-size: 16px;
+    width: 650px;
+    height: 50px;
+    color: white;
+    background-color: rgb(0, 115, 255);
+    border: none;
+    cursor: pointer;
+}
+#icon{
+    margin: 25px 0px;
+    font-size: 20px;
+}
+#icon:hover{
+    color: blue;
+}
